@@ -1,0 +1,31 @@
+<head>
+<title> Treinando Javascript </title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+</head>
+<body>
+
+<div class="bloco-form">
+<form method="post" onsubmit="registra_carro(); return false;">
+<center><h2>Registrar Carro</h2></center>
+<input type="number" id="id_carro" placeholder="Insira o ID do carro">
+<input type="text" id="nome_carro" placeholder="Insira o nome do Carro">
+<input type="submit" value="Registrar">
+</form>
+
+</div>
+
+
+<div class="bloco-form">
+<form method="post" onsubmit="pesquisa_carro(); return false;">
+<center><h2>Mostra Carro</h2></center>
+<input type="number" id="carro_show" placeholder="Insira o ID do carro">
+<input type="submit" value="Procurar">
+</form>
+</div>
+
+<footer>
+<script src="custom.js"></script>
+</footer>
+
+</body>
